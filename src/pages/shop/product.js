@@ -3,7 +3,7 @@ import { CartContext } from "../../contexts/CartContext"
 
 
 export const Product = ({data}) =>{
-  const {cart, handleAddToCart, handleRemoveFromCart, getProductCountInCart } = useContext(CartContext)
+  const {handleAddToCart, handleRemoveFromCart, getProductCountInCart } = useContext(CartContext)
   const {productName, productImage, price, id} = data
   let productCount = getProductCountInCart(id)
   return (

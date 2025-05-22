@@ -6,7 +6,6 @@ import { Cart } from './pages/cart/cart';
 import { Nav } from './components/nav';
 import { createContext, useState } from 'react';
 import {CartContextProvider} from './contexts/CartContext'
-export const CartContext = createContext()
 
 function App() {
   return (
