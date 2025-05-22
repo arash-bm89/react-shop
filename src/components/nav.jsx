@@ -2,7 +2,7 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "react-router-dom"
 
-export const NavComp = ()=>{
+export const Nav = ()=>{
   return (
     <div className="navbar navbar-dark bg-dark navbar-expand-lg">
       <div className="container">
